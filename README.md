@@ -33,7 +33,7 @@ README
 ## association
 
 * has_many :users, thorough: :group_users
-* has_many :users
+* has_many :group_users
 * has_many :chats
 
 # Chat
