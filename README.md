@@ -3,6 +3,7 @@ README
 # User
 
 ## column/type
+
 * name/string
 * email/string
 * password/string
@@ -30,6 +31,7 @@ README
 * name/null: false
 
 ## association
+
 * has_many :users, thorough: :group_users
 * has_many :users
 * has_many :chats
@@ -47,6 +49,7 @@ README
 
 * user_id/foreign_key :true
 * group_id/foreign_key :true
+
 ## association
 
 * belongs_to :user
