@@ -30,6 +30,7 @@ README
 
 * name/null: false
 
+
 ## association
 
 * has_many :users, thorough: :groups_users
