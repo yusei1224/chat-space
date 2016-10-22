@@ -32,8 +32,8 @@ README
 
 ## association
 
-* has_many :users, thorough: :group_users
-* has_many :group_users
+* has_many :users, thorough: :groups_users
+* has_many :groups_users
 * has_many :chats
 
 # Chat
@@ -55,7 +55,7 @@ README
 * belongs_to :user
 * belongs_to :group
 
-# User_groups
+# Groups_users
 
 ## column/type
 
