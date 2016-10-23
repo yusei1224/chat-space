@@ -1,6 +1,6 @@
 README
 
-# User
+# Users
 
 ## column/type
 
@@ -16,11 +16,11 @@ README
 
 ## association
 
-* has_many :groups, through: :group_users
-* has_many :group_users
+* has_many :groups, through: :groups_users
+* has_many :groups_users
 * has_many :chats
 
-# Group
+# Groups
 
 ## column/type
 
@@ -30,13 +30,14 @@ README
 
 * name/null: false
 
+
 ## association
 
-* has_many :users, thorough: :group_users
-* has_many :group_users
+* has_many :users, thorough: :groups_users
+* has_many :groups_users
 * has_many :chats
 
-# Chat
+# Chats
 
 ## column/type
 
@@ -55,7 +56,7 @@ README
 * belongs_to :user
 * belongs_to :group
 
-# User_groups
+# Groups_users
 
 ## column/type
 
